@@ -1,0 +1,59 @@
+2021-01-22 03:23:15 INFO  root.Main     - Client client =Client{clientId=3, firstName='Roman', lastName='Privalov', address='Saint-Petersburg', phoneNumber='+79771233215'}
+2021-01-22 03:23:15 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:15 INFO  root.Main     - Show List: 
+2021-01-22 03:23:15 INFO  root.Main     - Client{clientId=1, firstName='Ivan', lastName='Ivanov', address='Moscow', phoneNumber='+79991234567'}
+2021-01-22 03:23:15 INFO  root.Main     - Client{clientId=2, firstName='Sergei', lastName='Petrov', address='Moscow', phoneNumber='+79997654321'}
+2021-01-22 03:23:15 INFO  root.Main     - Client{clientId=3, firstName='Roman', lastName='Privalov', address='Saint-Petersburg', phoneNumber='+79771233215'}
+2021-01-22 03:23:15 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:15 INFO  root.Main     - clientByIdTrue: Client{clientId=1, firstName='Ivan', lastName='Ivanov', address='Moscow', phoneNumber='+79991234567'}
+2021-01-22 03:23:15 INFO  root.Main     - deleteClient: true
+2021-01-22 03:23:15 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:15 INFO  root.Main     - Show List: 
+2021-01-22 03:23:15 INFO  root.Main     - Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}
+2021-01-22 03:23:15 INFO  root.Main     - Item{itemId=2, itemName='iPad', description='iPad2020, 32 Gb, grey, Wi-Fi', cost=29900.00}
+2021-01-22 03:23:15 INFO  root.Main     - Item{itemId=3, itemName='Notebook', description='ASUS M570, 8 Gb, SSD 512 Gb ', cost=59900.00}
+2021-01-22 03:23:15 INFO  root.Main     - Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}
+2021-01-22 03:23:15 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:16 INFO  root.Main     - getItemById: Item{itemId=2, itemName='iPad', description='iPad2020, 32 Gb, grey, Wi-Fi', cost=29900.00}
+2021-01-22 03:23:16 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:16 INFO  root.Main     - addItem: Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}
+2021-01-22 03:23:16 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:16 INFO  root.Main     - updateItem: Item{itemId=2, itemName='monitor', description='ACER, 32 inch', cost=29900.00}
+2021-01-22 03:23:16 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:16 INFO  root.Main     - deleteItemById: true
+2021-01-22 03:23:16 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:16 INFO  root.Main     - Show List: 
+2021-01-22 03:23:16 INFO  root.Main     - Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}
+2021-01-22 03:23:16 INFO  root.Main     - Item{itemId=3, itemName='Notebook', description='ASUS M570, 8 Gb, SSD 512 Gb ', cost=59900.00}
+2021-01-22 03:23:16 INFO  root.Main     - Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}
+2021-01-22 03:23:16 INFO  root.Main     - Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}
+2021-01-22 03:23:16 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:18 INFO  root.Main     - addOrder: Order{orderId=1, countItems=4, summa=190690.00, clientId=3, items=[Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}, Item{itemId=3, itemName='Notebook', description='ASUS M570, 8 Gb, SSD 512 Gb ', cost=59900.00}, Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}, Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}]}
+2021-01-22 03:23:18 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:19 INFO  root.Main     - Show List: 
+2021-01-22 03:23:19 INFO  root.Main     - Order{orderId=1, countItems=4, summa=190690.00, clientId=3, items=[Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}, Item{itemId=3, itemName='Notebook', description='ASUS M570, 8 Gb, SSD 512 Gb ', cost=59900.00}, Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}, Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}]}
+2021-01-22 03:23:19 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:20 INFO  root.Main     - Order before adding new item:Order{orderId=1, countItems=4, summa=190690.00, clientId=3, items=[Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}, Item{itemId=3, itemName='Notebook', description='ASUS M570, 8 Gb, SSD 512 Gb ', cost=59900.00}, Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}, Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}, Item{itemId=3, itemName='Notebook', description='ASUS M570, 8 Gb, SSD 512 Gb ', cost=59900.00}]}
+2021-01-22 03:23:20 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:21 INFO  root.Main     - deleteItemFromOrder = true    Order{orderId=1, countItems=4, summa=190690.00, clientId=3, items=[Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}, Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}, Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}]}
+2021-01-22 03:23:21 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:22 INFO  root.Main     - Order by client id:[Order{orderId=1, countItems=4, summa=190690.00, clientId=3, items=[Item{itemId=1, itemName='iPhone', description='iPhone 12, 64 Gb, white', cost=79900.00}, Item{itemId=4, itemName='TV', description='Xioami MI TV 4S 43 inch', cost=30990.00}, Item{itemId=5, itemName='monitor', description='ACER, 20 inch', cost=19900.00}]}]
+2021-01-22 03:23:22 INFO  root.Main     - =========================================================================
+
+2021-01-22 03:23:22 INFO  root.Main     - deleteOrder:
+2021-01-22 03:23:22 INFO  root.Main     - Show List: 
+2021-01-22 03:23:22 INFO  root.Main     - =========================================================================
+
